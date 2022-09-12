@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #717D7E;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0%;
+}
+
+.shop {
+  color: #BD9302;
+  width: 50%;
+  background-color: rgb(0, 0, 0);
+  margin: 5% auto;
+  text-align: center;
+  border-radius: 90px;
+  padding: 2%;
+  box-shadow: rgba(122, 59, 59, 0.25) 0px 50px 100px -20px, rgba(224, 52, 52, 0.3) 0px 30px 60px -30px, rgba(151, 15, 15, 0.35) 0px -2px 6px 0px inset;
+}
+.shop .white {
+  background-color: #ffffff;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+.shop .black {
+  background-color: #000000;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+.shop h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 5%;
+  padding: 5px 0;
+  border-bottom: solid 4px #A82B11;
+  position: relative;
+}
+.shop h1::after {
+  content: "";
+  border-bottom: solid 4px #0A6A56;
+  width: 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+.shop .list-head {
+  width: 80%;
+  margin: 0 auto;
+}
+.shop .list-head input {
+  width: 70%;
+  height: 3rem;
+  margin-right: 6%;
+  background: #BBC2CC;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.shop .list-head input::-moz-placeholder {
+  color: #1F618D;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5%;
+}
+.shop .list-head input:-ms-input-placeholder {
+  color: #1F618D;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5%;
+}
+.shop .list-head input::placeholder {
+  color: #1F618D;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 5%;
+}
+.shop .list-head #add-button {
+  width: 20%;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  background-color: #0A6A56;
+  color: #ffffff;
+}
+.shop .list-head #add-button:hover {
+  color: #1F618D;
+  background: #BBC2CC;
+}
+.shop h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 5% 0;
+}
+.shop .todo-container {
+  width: 85%;
+  margin: 5% auto;
+}
+.shop .todo-container .todo-item-cont {
+  display: flex;
+  margin: 2% 0;
+}
+.shop .todo-container .todo-item-cont #todo-text {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 700;
+  width: 100%;
+  background: #BBC2CC;
+}
+.shop .todo-container .todo-item-cont #edit-button {
+  width: 10%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 6px;
+  background-color: #0A6A56;
+  border-radius: 5px;
+}
+.shop .todo-container .todo-item-cont #delet-button {
+  width: 10%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 6px;
+  background-color: #A82B11;
+  border-radius: 5px;
+}
+.shop .todo-container .todo-item-cont2 {
+  margin: 1% 0;
+}
+.shop .todo-container .todo-item-cont2 #todo-text1 {
+  background: #BBC2CC;
+  width: 50%;
+}
+.shop .todo-container .todo-item-cont2 #add-button2 {
+  width: 10%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 6px;
+  background-color: #0A6A56;
+  border-radius: 5px;
+  padding: 0.5%;
+}
+.shop .todo-container .todo-item-cont3 {
+  margin: 1% 0;
+}
+.shop .todo-container .todo-item-cont3 #todo-text2 {
+  width: 30%;
+  background: #BBC2CC;
+}
+.shop .todo-container .todo-item-cont3 #edit-button1 {
+  width: 10%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 6px;
+  background-color: #0A6A56;
+  border-radius: 5px;
+  padding: 0.5%;
+}
+.shop .todo-container .todo-item-cont3 #delet-button1 {
+  width: 10%;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-left: 6px;
+  background-color: #A82B11;
+  border-radius: 5px;
+  padding: 0.5%;
+}
+.shop #remove {
+  width: 20%;
+  height: 3rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border: 0px solid transparent;
+  border-radius: 10px;
+  background-color: #A82B11;
+}
+.shop #remove:hover {
+  background-color: #240c07;
+  color: #ffffff;
+}/*# sourceMappingURL=cart.css.map */
